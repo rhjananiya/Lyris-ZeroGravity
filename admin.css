@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Verdana, sans-serif;
+    background-color: black;
+    background-image: url("image9.gif");
+    background-position: center;
+    background-position-x: 71%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+  
+  body h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: #e9a041;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0;
+    font-size: 70px;
+    position: absolute;
+    margin: auto;
+    left: 44%;
+    top: 10%;
+  }
+  
+  body p {
+    font-family: "Courier New", bold, Courier, monospace;
+    font-size: 29px;
+    color: #e9a041;
+    text-align: center;
+    padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    position: absolute;
+    left: 39%;
+    top: 25%;
+  }
+  
+  .navbar {
+    width: 200px;
+    height: 100vh;
+    background-color: #3e5153;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  
+  .nav-item {
+    padding: 15px;
+    color: #ffd195;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    background-color: #416f6f;
+  }
+  .nav-item:not(:last-child) {
+    border-bottom: 1px solid #ffd195;
+  }
+  
+  .nav-item:first-child {
+    border-top: 1px solid #ffd195;
+  }
+  
+  .nav-item:last-child {
+    border-bottom: 1px solid #ffd195;
+  }
+  .nav-item:nth-child(2) {
+    position: relative;
+    border-top: 1px solid #ffd195;
+  }
+  
+  /*.navbar {
+    width: 200px;
+    height: 100vh;  Ensures the navbar height spans the full viewport height 
+    background-color: #3e5153;
+    display: flex;
+    flex-direction: column;
+    position: fixed;  Keeps the navbar fixed while scrolling 
+    top: 0;
+    left: 0;
+  }*/
+  
